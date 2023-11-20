@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаФорма" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа форма</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа форма</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаФормаРасширеннаяПодсказка" id="19"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаШапка" id="20">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="21"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаНаименование" id="26">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа наименование</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа наименование</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="27"/>
+							<ChildItems>
+								<InputField name="Наименование" id="4">
+									<DataPath>Объект.Description</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+								</InputField>
+								<CheckBoxField name="ЭтотУзел" id="13">
+									<DataPath>Объект.ЭтотУзел</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ЭтотУзелКонтекстноеМеню" id="14"/>
+									<ExtendedTooltip name="ЭтотУзелРасширеннаяПодсказка" id="15"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПараметрыИдентификации" id="28">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа параметры идентификации</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа параметры идентификации</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПараметрыИдентификацииРасширеннаяПодсказка" id="29"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаИмяСтрокиПодключения" id="30">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа имя строки подключения</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа имя строки подключения</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаИмяСтрокиПодключенияРасширеннаяПодсказка" id="31"/>
+									<ChildItems>
+										<InputField name="ИмяСтрокиПодключенияУзла" id="7">
+											<DataPath>Объект.ИмяСтрокиПодключенияУзла</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ИмяСтрокиПодключенияУзлаКонтекстноеМеню" id="8"/>
+											<ExtendedTooltip name="ИмяСтрокиПодключенияУзлаРасширеннаяПодсказка" id="9"/>
+										</InputField>
+										<Button name="УстановитьИмяСтрокиПодключенияУзла" id="107">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.УстановитьИмяСтрокиПодключенияУзла</CommandName>
+											<ExtendedTooltip name="УстановитьИмяСтрокиПодключенияУзлаРасширеннаяПодсказка" id="108"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаХешИд" id="32">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа хеш ид</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа хеш ид</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаХешИдРасширеннаяПодсказка" id="33"/>
+									<ChildItems>
+										<InputField name="Код" id="1">
+											<DataPath>Объект.Code</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Хеш идентификатор</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+											<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+										</InputField>
+										<Button name="ОбновитьХэшИдентификаторУзла" id="16">
+											<Type>UsualButton</Type>
+											<Representation>Picture</Representation>
+											<CommandName>Form.Command.ОбновитьХэшИдентификаторУзла</CommandName>
+											<Picture>
+												<xr:Ref>StdPicture.Refresh</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ExtendedTooltip name="ОбновитьХэшИдентификаторУзлаРасширеннаяПодсказка" id="17"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаТело" id="22">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа тело</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа тело</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТелоРасширеннаяПодсказка" id="23"/>
+					<ChildItems>
+						<Pages name="СтраницыТело" id="69">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы тело</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы тело</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
+							<ExtendedTooltip name="СтраницыТелоРасширеннаяПодсказка" id="70"/>
+							<ChildItems>
+								<Page name="СтраницаНастройкиПодключения" id="71">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настройки подключения</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница настройки подключения</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаНастройкиПодключенияРасширеннаяПодсказка" id="72"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаНастройкиПодключения" id="34">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа настройки подключения</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа настройки подключения</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаНастройкиПодключенияРасширеннаяПодсказка" id="35"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаНастройкиПодключения1" id="36">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настройки подключения</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настройки подключения</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаНастройкиПодключения1РасширеннаяПодсказка" id="37"/>
+													<ChildItems>
+														<InputField name="Пользователь" id="38">
+															<DataPath>Объект.Пользователь</DataPath>
+															<ContextMenu name="ПользовательКонтекстноеМеню" id="39"/>
+															<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="40"/>
+														</InputField>
+														<InputField name="Пароль" id="41">
+															<DataPath>Объект.Пароль</DataPath>
+															<ContextMenu name="ПарольКонтекстноеМеню" id="42"/>
+															<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="43"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаНастройкиПодключения2" id="44">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настройки подключения</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настройки подключения</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаНастройкиПодключения2РасширеннаяПодсказка" id="45"/>
+													<ChildItems>
+														<InputField name="МестоположениеWSDL" id="50">
+															<DataPath>Объект.МестоположениеWSDL</DataPath>
+															<ContextMenu name="МестоположениеWSDLКонтекстноеМеню" id="51"/>
+															<ExtendedTooltip name="МестоположениеWSDLРасширеннаяПодсказка" id="52"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаНастройкиПодключения3" id="46">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настройки подключения</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настройки подключения</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаНастройкиПодключения3РасширеннаяПодсказка" id="47"/>
+													<ChildItems>
+														<InputField name="URIПространстваИменСервиса" id="53">
+															<DataPath>Объект.URIПространстваИменСервиса</DataPath>
+															<ContextMenu name="URIПространстваИменСервисаКонтекстноеМеню" id="54"/>
+															<ExtendedTooltip name="URIПространстваИменСервисаРасширеннаяПодсказка" id="55"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаНастройкиПодключения4" id="48">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настройки подключения</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настройки подключения</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаНастройкиПодключения4РасширеннаяПодсказка" id="49"/>
+													<ChildItems>
+														<InputField name="ИмяСервиса" id="56">
+															<DataPath>Объект.ИмяСервиса</DataPath>
+															<ContextMenu name="ИмяСервисаКонтекстноеМеню" id="57"/>
+															<ExtendedTooltip name="ИмяСервисаРасширеннаяПодсказка" id="58"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаНастройкиПодключения5" id="59">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настройки подключения</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа настройки подключения</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаНастройкиПодключения5РасширеннаяПодсказка" id="60"/>
+													<ChildItems>
+														<InputField name="ИмяТочкиПодключения" id="61">
+															<DataPath>Объект.ИмяТочкиПодключения</DataPath>
+															<ContextMenu name="ИмяТочкиПодключенияКонтекстноеМеню" id="62"/>
+															<ExtendedTooltip name="ИмяТочкиПодключенияРасширеннаяПодсказка" id="63"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаДоступныеСобытия" id="73">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Доступные события</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница доступные события</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаДоступныеСобытияРасширеннаяПодсказка" id="74"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаДоступныеСобытия" id="75">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа доступные события</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа доступные события</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаДоступныеСобытияРасширеннаяПодсказка" id="76"/>
+											<ChildItems>
+												<Table name="ДоступныеСобытия" id="77">
+													<AutoInsertNewRow>true</AutoInsertNewRow>
+													<EnableStartDrag>true</EnableStartDrag>
+													<EnableDrag>true</EnableDrag>
+													<DataPath>Объект.ДоступныеСобытия</DataPath>
+													<RowFilter xsi:nil="true"/>
+													<ContextMenu name="ДоступныеСобытияКонтекстноеМеню" id="78"/>
+													<AutoCommandBar name="ДоступныеСобытияКоманднаяПанель" id="79">
+														<ChildItems>
+															<Button name="ДоступныеСобытияВыполнитьСобытиеПрямогоОбмена" id="102">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ВыполнитьСобытиеПрямогоОбмена</CommandName>
+																<ExtendedTooltip name="ДоступныеСобытияВыполнитьСобытиеПрямогоОбменаРасширеннаяПодсказка" id="103"/>
+															</Button>
+														</ChildItems>
+													</AutoCommandBar>
+													<ExtendedTooltip name="ДоступныеСобытияРасширеннаяПодсказка" id="80"/>
+													<SearchStringAddition name="ДоступныеСобытияСтрокаПоиска" id="81">
+														<AdditionSource>
+															<Item>ДоступныеСобытия</Item>
+															<Type>SearchStringRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ДоступныеСобытияСтрокаПоискаКонтекстноеМеню" id="82"/>
+														<ExtendedTooltip name="ДоступныеСобытияСтрокаПоискаРасширеннаяПодсказка" id="83"/>
+													</SearchStringAddition>
+													<ViewStatusAddition name="ДоступныеСобытияСостояниеПросмотра" id="84">
+														<AdditionSource>
+															<Item>ДоступныеСобытия</Item>
+															<Type>ViewStatusRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ДоступныеСобытияСостояниеПросмотраКонтекстноеМеню" id="85"/>
+														<ExtendedTooltip name="ДоступныеСобытияСостояниеПросмотраРасширеннаяПодсказка" id="86"/>
+													</ViewStatusAddition>
+													<SearchControlAddition name="ДоступныеСобытияУправлениеПоиском" id="87">
+														<AdditionSource>
+															<Item>ДоступныеСобытия</Item>
+															<Type>SearchControl</Type>
+														</AdditionSource>
+														<ContextMenu name="ДоступныеСобытияУправлениеПоискомКонтекстноеМеню" id="88"/>
+														<ExtendedTooltip name="ДоступныеСобытияУправлениеПоискомРасширеннаяПодсказка" id="89"/>
+													</SearchControlAddition>
+													<ChildItems>
+														<LabelField name="ДоступныеСобытияНомерСтроки" id="90">
+															<DataPath>Объект.ДоступныеСобытия.LineNumber</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ДоступныеСобытияНомерСтрокиКонтекстноеМеню" id="91"/>
+															<ExtendedTooltip name="ДоступныеСобытияНомерСтрокиРасширеннаяПодсказка" id="92"/>
+														</LabelField>
+														<InputField name="ДоступныеСобытияУзелОбмена" id="93">
+															<DataPath>Объект.ДоступныеСобытия.УзелОбмена</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ДоступныеСобытияУзелОбменаКонтекстноеМеню" id="94"/>
+															<ExtendedTooltip name="ДоступныеСобытияУзелОбменаРасширеннаяПодсказка" id="95"/>
+														</InputField>
+														<InputField name="ДоступныеСобытияИмяМетода" id="96">
+															<DataPath>Объект.ДоступныеСобытия.ИмяМетода</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ДоступныеСобытияИмяМетодаКонтекстноеМеню" id="97"/>
+															<ExtendedTooltip name="ДоступныеСобытияИмяМетодаРасширеннаяПодсказка" id="98"/>
+														</InputField>
+														<InputField name="ДоступныеСобытияИмяВызываемогоСобытия" id="104">
+															<DataPath>Объект.ДоступныеСобытия.ИмяВызываемогоСобытия</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ДоступныеСобытияИмяВызываемогоСобытияКонтекстноеМеню" id="105"/>
+															<ExtendedTooltip name="ДоступныеСобытияИмяВызываемогоСобытияРасширеннаяПодсказка" id="106"/>
+														</InputField>
+													</ChildItems>
+												</Table>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПовал" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа повал</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа повал</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПовалРасширеннаяПодсказка" id="25"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаВнешнийОтбработчик" id="64">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа внешний отбработчик</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа внешний отбработчик</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаВнешнийОтбработчикРасширеннаяПодсказка" id="65"/>
+							<ChildItems>
+								<InputField name="ИмяПредопределенногоМенеджераОбмена" id="99">
+									<DataPath>Объект.ИмяПредопределенногоМенеджераОбмена</DataPath>
+									<ContextMenu name="ИмяПредопределенногоМенеджераОбменаКонтекстноеМеню" id="100"/>
+									<ExtendedTooltip name="ИмяПредопределенногоМенеджераОбменаРасширеннаяПодсказка" id="101"/>
+								</InputField>
+								<InputField name="ВнешнийОбработчикДанных" id="66">
+									<DataPath>Объект.ВнешнийОбработчикДанных</DataPath>
+									<ContextMenu name="ВнешнийОбработчикДанныхКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="ВнешнийОбработчикДанныхРасширеннаяПодсказка" id="68"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.УзлыПрямогоОбменаДанными</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбновитьХэшИдентификаторУзла" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить хэш идентификатор узла</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить хэш идентификатор узла</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьХэшИдентификаторУзла</Action>
+		</Command>
+		<Command name="ВыполнитьСобытиеПрямогоОбмена" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить событие прямого обмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить событие прямого обмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьСобытиеПрямогоОбмена</Action>
+		</Command>
+		<Command name="УстановитьИмяСтрокиПодключенияУзла" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить имя строки подключения узла</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить имя строки подключения узла</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Information</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УстановитьИмяСтрокиПодключенияУзла</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
+</Form>

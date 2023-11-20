@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаФорма" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа форма</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа форма</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаФормаРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаШапка" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<LabelField name="Версия" id="9">
+							<DataPath>Версия</DataPath>
+							<ContextMenu name="ВерсияКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="ВерсияРасширеннаяПодсказка" id="11"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаТело" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа тело</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа тело</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТелоРасширеннаяПодсказка" id="6"/>
+					<ChildItems>
+						<Pages name="ГруппаСтраницы" id="12">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа страницы</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа страницы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
+							<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="13"/>
+							<ChildItems>
+								<Page name="ГруппаУзлыОбмена" id="14">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Узлы обмена</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа узлы обмена</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаУзлыОбменаРасширеннаяПодсказка" id="15"/>
+									<ChildItems>
+										<Table name="УзлыОбмена" id="18">
+											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<EnableStartDrag>true</EnableStartDrag>
+											<DataPath>УзлыОбмена</DataPath>
+											<RowPictureDataPath>УзлыОбмена.DefaultPicture</RowPictureDataPath>
+											<AutoRefresh>false</AutoRefresh>
+											<AutoRefreshPeriod>60</AutoRefreshPeriod>
+											<Period>
+												<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+												<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+												<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+											</Period>
+											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+											<RestoreCurrentRow>false</RestoreCurrentRow>
+											<TopLevelParent xsi:nil="true"/>
+											<ShowRoot>true</ShowRoot>
+											<AllowRootChoice>false</AllowRootChoice>
+											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+											<ContextMenu name="УзлыОбменаКонтекстноеМеню" id="19"/>
+											<AutoCommandBar name="УзлыОбменаКоманднаяПанель" id="20"/>
+											<ExtendedTooltip name="УзлыОбменаРасширеннаяПодсказка" id="21"/>
+											<SearchStringAddition name="УзлыОбменаСтрокаПоиска" id="22">
+												<AdditionSource>
+													<Item>УзлыОбмена</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="УзлыОбменаСтрокаПоискаКонтекстноеМеню" id="23"/>
+												<ExtendedTooltip name="УзлыОбменаСтрокаПоискаРасширеннаяПодсказка" id="24"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="УзлыОбменаСостояниеПросмотра" id="25">
+												<AdditionSource>
+													<Item>УзлыОбмена</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="УзлыОбменаСостояниеПросмотраКонтекстноеМеню" id="26"/>
+												<ExtendedTooltip name="УзлыОбменаСостояниеПросмотраРасширеннаяПодсказка" id="27"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="УзлыОбменаУправлениеПоиском" id="28">
+												<AdditionSource>
+													<Item>УзлыОбмена</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="УзлыОбменаУправлениеПоискомКонтекстноеМеню" id="29"/>
+												<ExtendedTooltip name="УзлыОбменаУправлениеПоискомРасширеннаяПодсказка" id="30"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="УзлыОбменаНаименование" id="31">
+													<DataPath>УзлыОбмена.Description</DataPath>
+													<ContextMenu name="УзлыОбменаНаименованиеКонтекстноеМеню" id="32"/>
+													<ExtendedTooltip name="УзлыОбменаНаименованиеРасширеннаяПодсказка" id="33"/>
+												</LabelField>
+												<CheckBoxField name="УзлыОбменаЭтотУзел" id="40">
+													<DataPath>УзлыОбмена.ЭтотУзел</DataPath>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="УзлыОбменаЭтотУзелКонтекстноеМеню" id="41"/>
+													<ExtendedTooltip name="УзлыОбменаЭтотУзелРасширеннаяПодсказка" id="42"/>
+												</CheckBoxField>
+												<LabelField name="УзлыОбменаКод" id="34">
+													<DataPath>УзлыОбмена.Code</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Хеш идентификатор</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="УзлыОбменаКодКонтекстноеМеню" id="35"/>
+													<ExtendedTooltip name="УзлыОбменаКодРасширеннаяПодсказка" id="36"/>
+												</LabelField>
+												<LabelField name="УзлыОбменаСсылка" id="37">
+													<DataPath>УзлыОбмена.Ref</DataPath>
+													<Visible>false</Visible>
+													<ContextMenu name="УзлыОбменаСсылкаКонтекстноеМеню" id="38"/>
+													<ExtendedTooltip name="УзлыОбменаСсылкаРасширеннаяПодсказка" id="39"/>
+												</LabelField>
+												<LabelField name="УзлыОбменаИмяСервиса" id="43">
+													<DataPath>УзлыОбмена.ИмяСервиса</DataPath>
+													<ContextMenu name="УзлыОбменаИмяСервисаКонтекстноеМеню" id="44"/>
+													<ExtendedTooltip name="УзлыОбменаИмяСервисаРасширеннаяПодсказка" id="45"/>
+												</LabelField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+								<Page name="ГруппаСобытия" id="55">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>События</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа события</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаСобытияРасширеннаяПодсказка" id="56"/>
+									<ChildItems>
+										<Table name="РегистрацияСобытийПрямогоОбменаДанными" id="57">
+											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<EnableStartDrag>true</EnableStartDrag>
+											<DataPath>РегистрацияСобытийПрямогоОбменаДанными</DataPath>
+											<RowPictureDataPath>РегистрацияСобытийПрямогоОбменаДанными.DefaultPicture</RowPictureDataPath>
+											<AutoRefresh>false</AutoRefresh>
+											<AutoRefreshPeriod>60</AutoRefreshPeriod>
+											<Period>
+												<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+												<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+												<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+											</Period>
+											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+											<RestoreCurrentRow>false</RestoreCurrentRow>
+											<TopLevelParent xsi:nil="true"/>
+											<ShowRoot>true</ShowRoot>
+											<AllowRootChoice>false</AllowRootChoice>
+											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+											<ContextMenu name="РегистрацияСобытийПрямогоОбменаДаннымиКонтекстноеМеню" id="58"/>
+											<AutoCommandBar name="РегистрацияСобытийПрямогоОбменаДаннымиКоманднаяПанель" id="59"/>
+											<ExtendedTooltip name="РегистрацияСобытийПрямогоОбменаДаннымиРасширеннаяПодсказка" id="60"/>
+											<SearchStringAddition name="РегистрацияСобытийПрямогоОбменаДаннымиСтрокаПоиска" id="61">
+												<AdditionSource>
+													<Item>РегистрацияСобытийПрямогоОбменаДанными</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="РегистрацияСобытийПрямогоОбменаДаннымиСтрокаПоискаКонтекстноеМеню" id="62"/>
+												<ExtendedTooltip name="РегистрацияСобытийПрямогоОбменаДаннымиСтрокаПоискаРасширеннаяПодсказка" id="63"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="РегистрацияСобытийПрямогоОбменаДаннымиСостояниеПросмотра" id="64">
+												<AdditionSource>
+													<Item>РегистрацияСобытийПрямогоОбменаДанными</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="РегистрацияСобытийПрямогоОбменаДаннымиСостояниеПросмотраКонтекстноеМеню" id="65"/>
+												<ExtendedTooltip name="РегистрацияСобытийПрямогоОбменаДаннымиСостояниеПросмотраРасширеннаяПодсказка" id="66"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="РегистрацияСобытийПрямогоОбменаДаннымиУправлениеПоиском" id="67">
+												<AdditionSource>
+													<Item>РегистрацияСобытийПрямогоОбменаДанными</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="РегистрацияСобытийПрямогоОбменаДаннымиУправлениеПоискомКонтекстноеМеню" id="68"/>
+												<ExtendedTooltip name="РегистрацияСобытийПрямогоОбменаДаннымиУправлениеПоискомРасширеннаяПодсказка" id="69"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="РегистрацияСобытийПрямогоОбменаДаннымиПериод" id="70">
+													<DataPath>РегистрацияСобытийПрямогоОбменаДанными.Period</DataPath>
+													<ContextMenu name="РегистрацияСобытийПрямогоОбменаДаннымиПериодКонтекстноеМеню" id="71"/>
+													<ExtendedTooltip name="РегистрацияСобытийПрямогоОбменаДаннымиПериодРасширеннаяПодсказка" id="72"/>
+												</LabelField>
+												<LabelField name="РегистрацияСобытийПрямогоОбменаДаннымиУзелПрямогоОбменаДанными" id="73">
+													<DataPath>РегистрацияСобытийПрямогоОбменаДанными.УзелПрямогоОбменаДанными</DataPath>
+													<ContextMenu name="РегистрацияСобытийПрямогоОбменаДаннымиУзелПрямогоОбменаДаннымиКонтекстноеМеню" id="74"/>
+													<ExtendedTooltip name="РегистрацияСобытийПрямогоОбменаДаннымиУзелПрямогоОбменаДаннымиРасширеннаяПодсказка" id="75"/>
+												</LabelField>
+												<LabelField name="РегистрацияСобытийПрямогоОбменаДаннымиИмяСобытия" id="76">
+													<DataPath>РегистрацияСобытийПрямогоОбменаДанными.ИмяСобытия</DataPath>
+													<ContextMenu name="РегистрацияСобытийПрямогоОбменаДаннымиИмяСобытияКонтекстноеМеню" id="77"/>
+													<ExtendedTooltip name="РегистрацияСобытийПрямогоОбменаДаннымиИмяСобытияРасширеннаяПодсказка" id="78"/>
+												</LabelField>
+												<LabelField name="РегистрацияСобытийПрямогоОбменаДаннымиРезультат" id="79">
+													<DataPath>РегистрацияСобытийПрямогоОбменаДанными.Результат</DataPath>
+													<ContextMenu name="РегистрацияСобытийПрямогоОбменаДаннымиРезультатКонтекстноеМеню" id="80"/>
+													<ExtendedTooltip name="РегистрацияСобытийПрямогоОбменаДаннымиРезультатРасширеннаяПодсказка" id="81"/>
+												</LabelField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+								<Page name="ГруппаТестОбмена" id="16">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Тест</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа тест обмена</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаТестОбменаРасширеннаяПодсказка" id="17"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаТестПрямойОбмен_ЗаявкаНаДС" id="46">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Заявка на ДС</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа тест прямой обмен заявка на ДС</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаТестПрямойОбмен_ЗаявкаНаДСРасширеннаяПодсказка" id="47"/>
+											<ChildItems>
+												<InputField name="ПрямойОбмен_ЗаявкаНаРасходованиеДС" id="48">
+													<DataPath>ПрямойОбмен_ЗаявкаНаРасходованиеДС</DataPath>
+													<ContextMenu name="ПрямойОбмен_ЗаявкаНаРасходованиеДСКонтекстноеМеню" id="49"/>
+													<ExtendedTooltip name="ПрямойОбмен_ЗаявкаНаРасходованиеДСРасширеннаяПодсказка" id="50"/>
+												</InputField>
+												<Button name="ОтправитьСообщение_ЗаявкаНаДС" id="51">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ОтправитьСообщение_ЗаявкаНаДС</CommandName>
+													<ExtendedTooltip name="ОтправитьСообщение_ЗаявкаНаДСРасширеннаяПодсказка" id="52"/>
+												</Button>
+												<Button name="ОтправитьСообщение_ЗаявкакНаДС_Статуст" id="53">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ОтправитьСообщение_ЗаявкакНаДС_Статуст</CommandName>
+													<ExtendedTooltip name="ОтправитьСообщение_ЗаявкакНаДС_СтатустРасширеннаяПодсказка" id="54"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПодвал" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа подвал</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа подвал</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="8"/>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.УправлениеНастройкамиПрямогоОбмена</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Версия" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="УзлыОбмена" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Узлы обмена</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.УзлыПрямогоОбменаДанными</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ПрямойОбмен_ЗаявкаНаРасходованиеДС" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прямой обмен заявка на расходование ДС</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РегистрацияСобытийПрямогоОбменаДанными" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистрация событий прямого обмена данными</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.РегистрацияСобытийПрямогоОбменаДанными</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОтправитьСообщение_ЗаявкаНаДС" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение заявка на ДС</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение заявка на ДС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьСообщение_ЗаявкаНаДС</Action>
+		</Command>
+		<Command name="ОтправитьСообщение_ЗаявкакНаДС_Статуст" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение заявкак на ДС (статуст)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение заявкак на д с статуст</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьСообщение_ЗаявкакНаДС_Статуст</Action>
+		</Command>
+	</Commands>
+</Form>

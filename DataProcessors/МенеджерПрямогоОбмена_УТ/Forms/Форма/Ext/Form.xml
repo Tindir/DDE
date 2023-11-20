@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаСписаниеТМЦ" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа списание ТМЦ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа списание ТМЦ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ГруппаСписаниеТМЦРасширеннаяПодсказка" id="7"/>
+			<ChildItems>
+				<InputField name="СписаниеТМЦ" id="1">
+					<DataPath>ДокументСсылка</DataPath>
+					<ContextMenu name="СписаниеТМЦКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="СписаниеТМЦРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<Button name="ОтправитьДокументСписаниеТМЦ" id="4">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОтправитьДокументСписаниеТМЦ</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отправить "Списание ТМЦ"</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ОтправитьДокументСписаниеТМЦРасширеннаяПодсказка" id="5"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКонтрагентВзаиморасчеты" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа контрагент взаиморасчеты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа контрагент взаиморасчеты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ГруппаКонтрагентВзаиморасчетыРасширеннаяПодсказка" id="9"/>
+			<ChildItems>
+				<InputField name="Контрагент" id="10">
+					<DataPath>Контрагент</DataPath>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="ДоговорКонтрагента" id="13">
+					<DataPath>ДоговорКонтрагента</DataPath>
+					<ContextMenu name="ДоговорКонтрагентаКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ДоговорКонтрагентаРасширеннаяПодсказка" id="15"/>
+				</InputField>
+				<Button name="ОтправитьКонтрагентВзаиморасчеты" id="16">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОтправитьКонтрагентВзаиморасчеты</CommandName>
+					<ExtendedTooltip name="ОтправитьКонтрагентВзаиморасчетыРасширеннаяПодсказка" id="17"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.МенеджерПрямогоОбмена_УТ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ДокументСсылка" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+			</Type>
+		</Attribute>
+		<Attribute name="Контрагент" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ДоговорКонтрагента" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Договор контрагента</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОтправитьДокументСписаниеТМЦ" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить документ списание ТМЦ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить документ списание ТМЦ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьДокументСписаниеТМЦ</Action>
+		</Command>
+		<Command name="ОтправитьКонтрагентВзаиморасчеты" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить контрагент взаиморасчеты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить контрагент взаиморасчеты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьКонтрагентВзаиморасчеты</Action>
+		</Command>
+	</Commands>
+</Form>

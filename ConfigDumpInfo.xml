@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
+	<ConfigVersions>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки" id="baaf4c34-985a-4491-ba2d-64e48c9b9c09" configVersion="a712c3fe08f866d5c04273299ce27d6f4f3abece"/>
+		<Metadata name="Catalog.УзлыПрямогоОбменаДанными" id="b6bbb0ca-08d4-4d72-86ec-ac86a0ad7829" configVersion="f22a84517f3427a2bb5bb90a7539cc26f8f30078">
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Attribute.ЭтотУзел" id="030f7c54-8fb8-4b48-827c-43cbadebfb33"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Attribute.Пароль" id="3ae345ec-7d5b-40f4-a89d-93d8a6bb65e0"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.TabularSection.ДоступныеСобытия.Attribute.УзелОбмена" id="3d060942-fe8f-4971-944d-251fac8b3901"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Attribute.МестоположениеWSDL" id="3d9decc0-6394-4fc1-8fc4-a3191e6eaa05"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Attribute.ИмяСтрокиПодключенияУзла" id="5cb62f66-0074-4638-8985-5e9bb914297b"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Attribute.ИмяПредопределенногоМенеджераОбмена" id="5fc645a5-7b2a-4e64-941a-4c02fadaad76"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Attribute.ВнешнийОбработчикДанных" id="7ba06a82-4775-458f-ae77-e488364af328"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.TabularSection.ДоступныеСобытия.Attribute.ИмяВызываемогоСобытия" id="970eb2e9-b7f6-4993-b84b-756fba0c043f"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Attribute.Пользователь" id="af306df1-40a2-483b-b44c-5f90ab4af819"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Attribute.УдалитьХешИдентификатораУзла" id="af6176a0-f96e-4bcd-81c8-b88ecbd4c02c"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.TabularSection.ДоступныеСобытия.Attribute.ИмяМетода" id="b165659c-5d7c-447f-9182-0721315617fa"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Attribute.ИмяСервиса" id="bf603684-571a-4da8-9502-f413aa3e7f6e"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.TabularSection.ДоступныеСобытия" id="ec0d1e1d-df78-4de5-a14c-2a78f89f0194"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Attribute.ИмяТочкиПодключения" id="ee5b8a21-827e-4c1a-b51d-c6a5f508249e"/>
+			<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Attribute.URIПространстваИменСервиса" id="f32a4882-a523-4a7c-abd0-52550fb85a21"/>
+		</Metadata>
+		<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Form.ФормаЭлемента" id="77b64aca-8d0f-4b97-a39d-ac1623e613d5" configVersion="8b92a3084c63b896820946a2aebdb4ffd01e38dc"/>
+		<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Form.ФормаЭлемента.Form" id="77b64aca-8d0f-4b97-a39d-ac1623e613d5.0" configVersion="d3ec41db2367ee975ffebb6d86fb2b842f45f5f8"/>
+		<Metadata name="Catalog.УзлыПрямогоОбменаДанными.ObjectModule" id="b6bbb0ca-08d4-4d72-86ec-ac86a0ad7829.0" configVersion="c7578612c09f40015debdc0eb4afc023e28412f8"/>
+		<Metadata name="Catalog.УзлыПрямогоОбменаДанными.Predefined" id="b6bbb0ca-08d4-4d72-86ec-ac86a0ad7829.1c" configVersion="6174b45dc1d2543c67b9796b52950b3e6e936bdc"/>
+		<Metadata name="CommonCommand.ВыполнитьОтправкуСообщения" id="564728f5-551a-4101-9033-daf08367568a" configVersion="f46ec8e4af91c10b53f3b610e9d25690f9e50318"/>
+		<Metadata name="CommonCommand.ВыполнитьОтправкуСообщения.CommandModule" id="564728f5-551a-4101-9033-daf08367568a.2" configVersion="13579594574697a9a6d6f7dec48b8f2b0d6aebb0"/>
+		<Metadata name="CommonModule.ОбменСообщениями_ОбщегоНазначения" id="af18bbf1-f35d-46db-b361-63adc3140e0d" configVersion="56ae4b1e9a319b99833ce7d375cfd524387823b4"/>
+		<Metadata name="CommonModule.ОбменСообщениями_ОбщегоНазначения.Module" id="af18bbf1-f35d-46db-b361-63adc3140e0d.0" configVersion="c11dcf5bbe4933ef35d2866f1ca33e77982de688"/>
+		<Metadata name="Configuration.ОбменСообщениями" id="260b0625-f99d-4f7c-999b-e6d07eab0421" configVersion="b5f99d5f11cee829f90b12a82b6f907f797e0203"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_БП" id="f22da0b6-6ad7-442d-bc5d-f311846c8f50" configVersion="add1f16de58165816e4d882653b8229fded45148"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_БП.Form.Форма" id="8d7faf79-1377-4a63-8769-a9515cf13ce3" configVersion="a70c57a7f3c954335b898d17da416dad7d5e4ced"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_БП.Form.Форма.Form" id="8d7faf79-1377-4a63-8769-a9515cf13ce3.0" configVersion="bd6e3ce99fda1084b0ce20bcbd0638abef3519cc"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_БП.ObjectModule" id="f22da0b6-6ad7-442d-bc5d-f311846c8f50.0" configVersion="9061b5017c80b35667b0189e9acf963d85700723"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_Весовая" id="d456be94-bae6-45c5-9d83-9c873c3bee67" configVersion="bbd3b4250d1cc61947d09874e88e557ad12a61f2"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_Весовая.Form.Форма" id="8a652a04-9198-4eed-987e-1a553ca9e570" configVersion="60b3915a400be34b8a42d8954918bc47aad53719"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_Весовая.Form.Форма.Form" id="8a652a04-9198-4eed-987e-1a553ca9e570.0" configVersion="a0d86cd208141af565591457e7bb6788a1482d23"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_Весовая.ObjectModule" id="d456be94-bae6-45c5-9d83-9c873c3bee67.0" configVersion="e80a55cc616afdcd38c903a30f1c087e8f649003"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_УТ" id="11701498-d940-4ed2-841e-4cfbd258a8ca" configVersion="e2ef48a69581e4ebef889be2fed295ffebc21ff0"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_УТ.Form.Форма" id="54f1da7e-2ad6-4c69-a043-82c03265d976" configVersion="64dcf5626bfaec0edb6e9dba26480d9018a66072"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_УТ.Form.Форма.Form" id="54f1da7e-2ad6-4c69-a043-82c03265d976.0" configVersion="640d231a0ac28c4aea0d38dfdf2f57be5739175c"/>
+		<Metadata name="DataProcessor.МенеджерПрямогоОбмена_УТ.ObjectModule" id="11701498-d940-4ed2-841e-4cfbd258a8ca.0" configVersion="1a01c7b2486f3a9a8a3a865560e28d2ebb1773cb"/>
+		<Metadata name="DataProcessor.УправлениеНастройкамиПрямогоОбмена" id="7b6a344d-0154-4ee0-9404-67dd00fee31d" configVersion="9dc2fd72b07b722f3c26ecc21649e3ebc851ce09">
+			<Metadata name="DataProcessor.УправлениеНастройкамиПрямогоОбмена.Command.ОткрытьФормыОбработки" id="368f8662-59d0-41b8-9bc7-b4c8f883ec8a"/>
+		</Metadata>
+		<Metadata name="DataProcessor.УправлениеНастройкамиПрямогоОбмена.Command.ОткрытьФормыОбработки.CommandModule" id="368f8662-59d0-41b8-9bc7-b4c8f883ec8a.2" configVersion="280e6357c3516e1f58cc5a9dfb84c2456b820a70"/>
+		<Metadata name="DataProcessor.УправлениеНастройкамиПрямогоОбмена.Form.Форма" id="a128dbc3-acc4-4076-bbaf-6e1c71a56c50" configVersion="39da6de33c70e1c36027d14f314832c6b19f8ab8"/>
+		<Metadata name="DataProcessor.УправлениеНастройкамиПрямогоОбмена.Form.Форма.Form" id="a128dbc3-acc4-4076-bbaf-6e1c71a56c50.0" configVersion="28b45b6649aad70f24040c51b3bdf32801a70a9e"/>
+		<Metadata name="DataProcessor.УправлениеНастройкамиПрямогоОбмена.ManagerModule" id="7b6a344d-0154-4ee0-9404-67dd00fee31d.2" configVersion="a50619d0580ce75187b3b650bc2c9c2b8d02a60c"/>
+		<Metadata name="DataProcessor.УправлениеНастройкамиПрямогоОбмена.ObjectModule" id="7b6a344d-0154-4ee0-9404-67dd00fee31d.0" configVersion="a50ac6abb93319cd0d70fd68461a411d3bef6b99"/>
+		<Metadata name="InformationRegister.РегистрацияСобытийПрямогоОбменаДанными" id="67c0dde5-c14d-423a-90db-ca96d0f4ce6b" configVersion="f380974a27503eda337ceb0820139be24a6a8d42">
+			<Metadata name="InformationRegister.РегистрацияСобытийПрямогоОбменаДанными.Dimension.ИмяСобытия" id="282f5485-d454-45b1-a516-4649dcc5b56c"/>
+			<Metadata name="InformationRegister.РегистрацияСобытийПрямогоОбменаДанными.Dimension.УзелПрямогоОбменаДанными" id="46773020-2860-4344-866c-c8f91d3f49fd"/>
+			<Metadata name="InformationRegister.РегистрацияСобытийПрямогоОбменаДанными.Attribute.Результат" id="b9bcb221-b94e-4568-8e66-74ecfbfa3122"/>
+		</Metadata>
+		<Metadata name="InformationRegister.РегистрацияСобытийПрямогоОбменаДанными.ManagerModule" id="67c0dde5-c14d-423a-90db-ca96d0f4ce6b.2" configVersion="acfcc40cbceff9a888433d257e04a2ef9b4b85ad"/>
+		<Metadata name="Language.Русский" id="834225eb-9255-4269-a29e-6680c546a4d9" configVersion="77a3d3e258b3fd5155c08afd95718b13add69938"/>
+		<Metadata name="Role.ПравоПрямогоОбменаСообщениями" id="3364a1e3-4c83-40cb-86f1-1dc5ff9e3ab9" configVersion="e8d96095d76feebd2a47a5ae3c62177fa2911e1c"/>
+		<Metadata name="Role.ПравоПрямогоОбменаСообщениями.Rights" id="3364a1e3-4c83-40cb-86f1-1dc5ff9e3ab9.0" configVersion="b4a482dc005d203c36f2853e995eb69271cc043c"/>
+		<Metadata name="Subsystem.DirectDataExchange" id="ee7ef3cf-4720-41b9-b226-11ba8f68525b" configVersion="24bd1b4098ee33cc51b8f86825e11efc8b082599"/>
+		<Metadata name="Subsystem.DirectDataExchange.CommandInterface" id="ee7ef3cf-4720-41b9-b226-11ba8f68525b.1" configVersion="3266d5acfee02f191f39ea501c4ea0f20c47737e"/>
+		<Metadata name="Subsystem.DirectDataExchange.Subsystem.МенеджерыПрямогоОбмена" id="1a6a549b-ac28-4eab-8bc2-e40c0c0c0cee" configVersion="41fb6b856315b572c75c18dee79e548fc6cc763e"/>
+		<Metadata name="Subsystem.DirectDataExchange.Subsystem.МенеджерыПрямогоОбмена.CommandInterface" id="1a6a549b-ac28-4eab-8bc2-e40c0c0c0cee.1" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
+		<Metadata name="Subsystem.DirectDataExchange.Subsystem.УправлениеПрямымиОбменами" id="3b12b40e-4d72-4da1-adda-654620671923" configVersion="8fb44d2c71934d0a45cd43da264fd296d4f36afa"/>
+		<Metadata name="Subsystem.DirectDataExchange.Subsystem.УправлениеПрямымиОбменами.CommandInterface" id="3b12b40e-4d72-4da1-adda-654620671923.1" configVersion="0b0f3ebee7de7e5b9163a8487b7302f8d2b0662f"/>
+		<Metadata name="WebService.DirectDataExchange" id="cf5e9a81-e8a0-4539-9a8f-29326dc9fd71" configVersion="246412c5bd011091b33c7e592cad6dea8a897f42">
+			<Metadata name="WebService.DirectDataExchange.Operation.MessageEx.Parameter.MetadataName" id="1f01c555-f04e-427a-a6ba-8c2d2e4f252b"/>
+			<Metadata name="WebService.DirectDataExchange.Operation.MessageEx.Parameter.Data" id="9abbc614-97c4-4935-9501-fb5477116ed7"/>
+			<Metadata name="WebService.DirectDataExchange.Operation.CheckEx.Parameter.ID" id="b66facc2-d1ec-40cb-a630-a43eab326a2c"/>
+			<Metadata name="WebService.DirectDataExchange.Operation.MessageEx" id="c9e0491c-c642-4bac-92e5-d18ed09df08e"/>
+			<Metadata name="WebService.DirectDataExchange.Operation.MessageEx.Parameter.ID" id="cdd214f1-52dd-4f12-bed5-371d6417f9b4"/>
+			<Metadata name="WebService.DirectDataExchange.Operation.CheckEx" id="f53deb23-96dd-491c-bda1-8093d5aedfb8"/>
+		</Metadata>
+		<Metadata name="WebService.DirectDataExchange.Module" id="cf5e9a81-e8a0-4539-9a8f-29326dc9fd71.0" configVersion="3b4074c5dd638823508c8823077a9e99f9be3a1f"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
